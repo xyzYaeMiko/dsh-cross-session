@@ -1,0 +1,15 @@
+# dsh-cross-session bundle patch.
+#
+# One Host row and no browser half: the whole capability is four model-facing
+# tools registered by index.js. Row order carries no load semantics; the plugin
+# applies once `ctx.tools` and `ctx.agents` exist and finds every other service
+# at call time.
+#
+# Optional row `config`: index.js accepts an object that overrides entries of
+# its DEFAULTS policy (maxHops, defaultAskSeconds, maxAskSeconds, maxListRows,
+# listScanLimit, maxReadMessages, maxReadChars, maxReplyChars, relayTtlMs).
+# Unknown keys and wrong types are ignored, so this row can stay as-is.
+
+- insert:
+    - id: cross-session
+      name: dsh-cross-session

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Cross-session chat">
+<defs>
+<linearGradient id="g0" gradientUnits="userSpaceOnUse" x1="40" y1="30" x2="470" y2="500"><stop offset="0" stop-color="#6f9cff"/><stop offset="0.55" stop-color="#3f6fe0"/><stop offset="1" stop-color="#2a55c4"/></linearGradient>
+<linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="240" y1="220" x2="440" y2="400"><stop offset="0" stop-color="#f7faff"/><stop offset="0.55" stop-color="#e2ecff"/><stop offset="1" stop-color="#c9d9ff"/></linearGradient>
+<linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="330" y2="340"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e4eeff"/></linearGradient>
+</defs>
+<rect x="16" y="16" width="480" height="480" rx="108" fill="url(#g0)"/>
+<rect x="24" y="24" width="464" height="464" rx="100" fill="#ffffff" opacity="0.06"/>
+<ellipse cx="210" cy="236" rx="124" ry="100" transform="rotate(-8 210 236)" fill="#0f2555" opacity="0.14"/>
+<ellipse cx="344" cy="322" rx="112" ry="92" transform="rotate(-8 344 322)" fill="#0f2555" opacity="0.16"/>
+<line x1="262" y1="148" x2="404" y2="148" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+<line x1="404" y1="148" x2="378" y2="122" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+<line x1="404" y1="148" x2="378" y2="174" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+<line x1="268" y1="356" x2="124" y2="356" stroke="url(#g1)" stroke-width="22" stroke-linecap="round"/>
+<line x1="124" y1="356" x2="150" y2="330" stroke="url(#g1)" stroke-width="22" stroke-linecap="round"/>
+<line x1="124" y1="356" x2="150" y2="382" stroke="url(#g1)" stroke-width="22" stroke-linecap="round"/>
+<polygon points="158.78,309.46 104.54,255.22000000000003 89.18,324.82" fill="#17407f"/>
+<ellipse cx="200" cy="214" rx="119" ry="103" transform="rotate(-8 200 214)" fill="#17407f"/>
+<ellipse cx="200" cy="214" rx="110" ry="94" transform="rotate(-8 200 214)" fill="url(#g2)"/>
+<line x1="140" y1="166" x2="232" y2="146" stroke="#dbe7ff" stroke-width="22" stroke-linecap="round" opacity="0.85"/>
+<polygon points="151.9,307.3 106.7,262.1 93.9,320.1" fill="url(#g2)"/>
+<polygon points="354.6133333333333,381.00000000000006 409.81333333333333,334.68 426.9733333333333,411.12" fill="#17407f"/>
+<ellipse cx="332" cy="298" rx="107" ry="89" transform="rotate(-8 332 298)" fill="#17407f"/>
+<ellipse cx="332" cy="298" rx="98" ry="80" transform="rotate(-8 332 298)" fill="url(#g1)"/>
+<line x1="296" y1="262" x2="368" y2="242" stroke="#ffffff" stroke-width="20" stroke-linecap="round" opacity="0.45"/>
+<polygon points="361.7,380.1 407.7,341.5 422,405.2" fill="url(#g1)"/>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "name": "dsh-cross-session",
+  "version": "0.2.0",
+  "description": "DSH plugin: model-facing tools that let an agent discover, read, ask, and send messages to other sessions, with a Settings page for per-session tool visibility.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/settings.mjs",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "test/selfcheck.mjs"
+  ],
+  "scripts": {
+    "test": "node test/selfcheck.mjs",
+    "selfcheck": "node test/selfcheck.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "cross-session",
+    "sessions",
+    "agent-tools",
+    "multi-agent"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "license": "MIT"
+}
